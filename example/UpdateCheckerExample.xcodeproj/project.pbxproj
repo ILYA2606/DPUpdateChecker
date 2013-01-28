@@ -17,6 +17,7 @@
 		292235BD15FDED7500FF7F55 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 292235BB15FDED7500FF7F55 /* ViewController_iPhone.xib */; };
 		292235C015FDED7500FF7F55 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 292235BE15FDED7500FF7F55 /* ViewController_iPad.xib */; };
 		292235C915FDEDEF00FF7F55 /* DPUpdateChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 292235C815FDEDEF00FF7F55 /* DPUpdateChecker.m */; };
+		29AEEE1A16B6747900FDFF68 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29AEEE1916B6747900FDFF68 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		292235BF15FDED7500FF7F55 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
 		292235C715FDEDEF00FF7F55 /* DPUpdateChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPUpdateChecker.h; sourceTree = "<group>"; };
 		292235C815FDEDEF00FF7F55 /* DPUpdateChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPUpdateChecker.m; sourceTree = "<group>"; };
+		29AEEE1916B6747900FDFF68 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 		2922359715FDED7500FF7F55 = {
 			isa = PBXGroup;
 			children = (
+				29AEEE1916B6747900FDFF68 /* Default-568h@2x.png */,
 				292235AC15FDED7500FF7F55 /* UpdateCheckerExample */,
 				292235A515FDED7500FF7F55 /* Frameworks */,
 				292235A315FDED7500FF7F55 /* Products */,
@@ -168,6 +171,7 @@
 				292235B115FDED7500FF7F55 /* InfoPlist.strings in Resources */,
 				292235BD15FDED7500FF7F55 /* ViewController_iPhone.xib in Resources */,
 				292235C015FDED7500FF7F55 /* ViewController_iPad.xib in Resources */,
+				29AEEE1A16B6747900FDFF68 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +311,7 @@
 				292235C515FDED7500FF7F55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

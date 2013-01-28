@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-#define AppleID 553197797 /* overwrite with your Application AppleID */
+#define AppleID 495655551 /* overwrite with your Application AppleID */
 
 @protocol DPDelegate <NSObject>
 @optional
@@ -23,11 +23,11 @@
 @property (nonatomic, assign) id <DPDelegate> delegate;
 
 /* preconfigured getters */
-+ (void) startGetVersion;
-+ (void) startGetAverageUserRating;
-+ (void) startGetUserRatingCount;
+- (void) startGetVersion;
+- (void) startGetAverageUserRating;
+- (void) startGetUserRatingCount;
 
 /* getter for custom key */
-+ (void) startGetCustomValueFromKey:(NSString*)key;
+- (void) startGetCustomValueFromKey:(NSString*)key;
 
 @end

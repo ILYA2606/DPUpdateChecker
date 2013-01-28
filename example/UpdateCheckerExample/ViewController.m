@@ -15,7 +15,7 @@
 {
     [super viewDidLoad];
     DPUpdateChecker *cont = [[DPUpdateChecker new] autorelease];
-    cont.delegate = self;
+    cont.delegate = (id<DPDelegate>) self;
     [cont startGetVersion];
 }
 
